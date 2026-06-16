@@ -1,8 +1,8 @@
-# Design Document Rules
+# 设计文档规则
 
-1. **Consistency**: Maintain consistent formatting and structure across all design documents.
-2. **Clarity**: Ensure that each document is clear and easy to understand.
-3. **Completeness**: Include all necessary information about the design, including architecture, components, and interfaces.
-4. **Versioning**: Use version control for design documents to track changes and updates.
-5. **Accessibility**: Store design documents in a centralized location for easy access by all team members.
-6. **Review Process**: Implement a review process for design documents to ensure quality and accuracy.
+1. **一致性**: 保持所有设计文档的一致格式和结构。
+2. **清晰性**: 确保每个文档清晰易懂。
+3. **完整性**: 包含关于设计的所有必要信息，包括架构、组件和接口。
+4. **版本控制**: 使用版本控制对设计文档进行跟踪。
+5. **可访问性**: 将设计文档存储在集中位置以便团队成员轻松访问。
+6. **评审流程**: 实施设计文档的评审流程以确保质量和准确性。

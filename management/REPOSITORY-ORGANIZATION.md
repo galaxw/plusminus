@@ -1,9 +1,9 @@
-# Repository Organization Guidelines
+# 仓库组织指南
 
-1. **Project Structure**: Maintain a clear and logical project structure to facilitate navigation and maintenance.
-2. **Directory Layout**: Use standard directory layouts for source code, documentation, and other project assets.
-3. **Documentation**: Keep all documentation, including requirement documents, design documents, and user guides, within the repository.
-4. **License and Readme**: Maintain a `LICENSE` file and a `README.md` file at the root of the repository to provide essential information about the project.
-5. **Version Control**: Use Git for version control, with a branching strategy that supports development, testing, and release processes.
-6. **Security**: Implement security best practices, including regular security scans and vulnerability assessments.
-7. **Testing**: Include testing frameworks and scripts to ensure code quality and reliability.
+1. **项目结构**: 保持清晰和逻辑的项目结构以方便导航和维护。
+2. **目录布局**: 使用标准目录布局用于源代码、文档和其他项目资产。
+3. **文档**: 将所有文档、需求文档、设计文档和用户指南保留在仓库中。
+4. **许可证和README**: 在仓库根目录下保持 `LICENSE` 文件和 `README.md` 文件以提供项目的必要信息。
+5. **版本控制**: 使用 Git 进行版本控制，采用支持开发、测试和发布过程的分支策略。
+6. **安全性**: 实施安全最佳实践，包括定期的安全扫描和漏洞评估。
+7. **测试**: 包含测试框架和脚本以确保代码质量和可靠性。

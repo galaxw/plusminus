@@ -1,14 +1,14 @@
-# Development Workflow
+# 开发流程
 
-1. **Requirement Confirmation**: Use GitHub Issues to record and confirm requirements.
-2. **Design and Module Splitting**: Create a `design` directory in the code repository to store design documents and module splitting plans.
-3. **Review Process**: Use GitHub Pull Request (PR) functionality to review designs and code.
-4. **Detailed Design**: Write detailed design documents for each module in the `design` directory.
-5. **Unit Testing**: Use the Google Test framework to write unit tests for utility classes.
-6. **Module Testing**: Write corresponding test cases after each module is completed.
-7. **Integration Testing**: Write integration test cases after the project is completed.
-8. **Commit Standards**: Use Conventional Commits standards to ensure consistency in commit messages.
-9. **Code Style Checking**: Integrate tools like Clang-Tidy or CppCheck for code style checking.
-10. **Build, Test, Packaging Scripts**: Add corresponding scripts in `CMakeLists.txt` or `Makefile`.
+1. **需求确认**: 使用 GitHub Issues 记录和确认需求。
+2. **设计与模块拆分**: 在 `design/` 目录中创建设计文档和模块拆分计划。
+3. **评审流程**: 使用 GitHub Pull Request (PR) 功能来评审设计和代码。
+4. **详细设计**: 在 `design/` 目录中为每个模块编写详细设计文档。
+5. **单元测试**: 使用 Google Test 框架编写实用类的单元测试。
+6. **模块测试**: 在每个模块完成后编写相应的测试用例。
+7. **集成测试**: 项目完成后编写集成测试用例。
+8. **提交规范**: 使用 Conventional Commits 标准确保提交信息的一致性。
+9. **代码风格检查**: 集成 Clang-Tidy 或 CppCheck 工具进行代码风格检查。
+10. **构建、测试、打包脚本**: 在 `CMakeLists.txt` 或 `Makefile` 中添加相应的脚本。
 
-This workflow ensures a structured and efficient development process.
+此工作流确保结构化和高效的开发过程。

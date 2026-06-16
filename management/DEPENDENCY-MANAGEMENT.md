@@ -1,22 +1,22 @@
-# Dependency Management Plan with Conan
+# 依赖管理计划与 Conan
 
-## Tool: Conan
-- **Tool**: Use Conan as the dependency management tool.
-- **Repository**: Maintain a Conan repository to store and manage dependencies.
-- **Configuration**: Configure `conanfile.py` to define project dependencies and settings.
-- **Installation**: Use `conan install` to fetch and install dependencies.
-- **Integration**: Integrate Conan with the build system (e.g., CMake) to ensure dependencies are correctly resolved.
-- **Version Control**: Track dependency versions in the `conanfile.py` to ensure reproducibility.
-- **Security**: Regularly update dependencies to address security vulnerabilities.
+## 工具: Conan
+- **工具**: 使用 Conan 作为依赖管理工具。
+- **仓库**: 维护一个 Conan 仓库来存储和管理依赖项。
+- **配置**: 配置 `conanfile.py` 以定义项目依赖项和设置。
+- **安装**: 使用 `conan install` 来获取和安装依赖项。
+- **集成**: 将 Conan 与构建系统（如 CMake）集成，以确保依赖项在构建过程中正确解析。
+- **版本控制**: 在 `conanfile.py` 中跟踪依赖项版本以确保可重复性。
+- **安全性**: 定期更新依赖项以解决安全漏洞。
 
-## Directory Structure
-- `conanfile.py`: Defines project dependencies and settings.
-- `conan/`: Directory to store Conan-related files and configurations.
-- `dependencies/`: Directory to store third-party libraries managed by Conan.
+## 目录结构
+- `conanfile.py`: 定义项目依赖项和设置。
+- `conan/`: 存储 Conan 相关的文件和配置。
+- `dependencies/`: 存储由 Conan 管理的第三方库。
 
-## Workflow
-1. **Define Dependencies**: Update `conanfile.py` with required dependencies and versions.
-2. **Install Dependencies**: Run `conan install` to fetch and install dependencies.
-3. **Build Project**: Integrate Conan with the build system to resolve dependencies during the build process.
-4. **Update Dependencies**: Periodically update dependencies to address security issues and improve functionality.
-5. **Version Control**: Ensure that all dependency changes are tracked in Git for reproducibility.
+## 工作流程
+1. **定义依赖项**: 更新 `conanfile.py` 以包含所需的依赖项和版本。
+2. **安装依赖项**: 运行 `conan install` 以获取和安装依赖项。
+3. **构建项目**: 将 Conan 与构建系统集成，以在构建过程中解析依赖项。
+4. **更新依赖项**: 定期更新依赖项以解决安全问题和改进功能。
+5. **版本控制**: 确保所有依赖项更改都在 Git 中进行跟踪以实现可重复性。

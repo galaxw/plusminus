@@ -1,8 +1,8 @@
-# Release Management Plan
+# 发布管理计划
 
-1. **Version Control**: Use semantic versioning (e.g., `v1.0.0`) following the [Semantic Versioning](https://semver.org/) specification.
-2. **Release Branch**: Create a `release/` branch for release preparation, such as `release/v1.0.0`.
-3. **Build and Test**: Execute full build and test processes on the `release/` branch to ensure stability.
-4. **Release Script**: Write an automated script (e.g., `publish.sh`) to package, sign, and upload binary files.
-5. **GitHub Release**: Use GitHub's Release feature to publish versions and include a changelog (`CHANGELOG.md`).
-6. **Package Manager Integration**: Synchronize the released version with package managers (e.g., vcpkg, Conan) for dependency management.
+1. **版本控制**: 使用语义化版本号（如 `v1.0.0`）。
+2. **发布分支**: 创建 `release/` 分支用于发布准备，例如 `release/v1.0.0`。
+3. **构建与测试**: 在 `release/` 分支上执行完整的构建和测试流程以确保稳定性。
+4. **发布脚本**: 编写自动化脚本（例如 `publish.sh`）来打包、签名和上传二进制文件。
+5. **GitHub Release**: 使用 GitHub 的 Release 功能发布版本并包含变更日志（`CHANGELOG.md`）。
+6. **包管理器集成**: 与包管理器（如 vcpkg、Conan）同步发布的版本以进行依赖管理。
